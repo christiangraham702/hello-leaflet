@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.intro {
+    display: flex;
+    /* align-items: center; */
+    justify-content: right;
+    flex-direction: column;
+
+}
+
+.map {
+    width: 60vw;
+    height: 40vh;
+    max-width: 600px;
+    border-radius: 15px;
+}
+h2 {
+    font-family: 'Pacifico', cursive;
+    margin-top: 50px;
+    font-size: 60px;
+    color: #36a750;
+    letter-spacing: 2px;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    width: 60vw;
+    margin-bottom: 40px;
+}
